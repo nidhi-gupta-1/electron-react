@@ -38,3 +38,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ### `npm run dev`
 
 To run both offline and online app
+
+### `Basic commands To start with the coding for Electron\React app`
+run npx create-react-app <app-name> to generate a basic React application
+run npm install --save-dev electron
+add main.js from electron-quick-start (we’ll rename it to electron-starter.js, for clarity)
+modify call to mainWindow.loadURL (in electron-starter.js) to use localhost:3000 (webpack-dev-server)
+add a main entry to package.json for electron-starter.js
+add a run target to start Electron to package.json
+npm start followed by npm run electron in multiple command lines simultaneously
