@@ -1,0 +1,52 @@
+html { overflow-y: hidden; }
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.btn1{
+  background-color: rgb(40, 39, 104);
+  color: white;
+}
+
+.tablist{
+  text-align: left;
+  background-color: rgb(173, 214, 253);
+}
+
+input:required:focus {
+  border: 1px solid red;
+  outline: none;
+}
+
+.inputFields {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.openItem {
+  list-style: none;
+  list-style-type: none;
+  position: absolute;
+  margin-top: 100%;
+  border: 1px solid black;
+  padding: 0;
+  width: 50px;
+}
